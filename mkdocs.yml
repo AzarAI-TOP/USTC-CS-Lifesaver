@@ -1,0 +1,40 @@
+# Project information
+site_name: USTC CS Lifesaver
+site_url: https://www.azarai.top/
+site_author: AzarAI
+site_description: 一个力求帮助到USTC CS 学生的知识笔记手册
+docs_dir: docs
+site_dir: site
+
+# Repository
+repo_name: AzarAI/USTC-CS-Lifesaver
+repo_url: https://github.com/AzarAI/USTC-CS-Lifesaver
+
+# Configuration
+theme:
+  name: material
+  highlightjs: true
+  language: zh
+  features:
+    - content.code.copy
+    - toc.follow
+  font:
+    text: Noto Sans SC
+    code: Fira Code
+  favicon: assets/images/favicon.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AzarAI-TOP
+  status:
+    new: 最近添加
+
+# Plugins
+plugins:
+  - search
+
+# Page tree
+nav:
+  - Home: index.md
+  - About: about.md
